@@ -22,16 +22,16 @@ class ReportAgent:
             safety_settings=None,
         )
         self.search = DuckDuckGoSearchAPIWrapper()
-        self.results_per_question = 3
+        self.results_per_question = 10
         self.summary_prompt = ChatPromptTemplate.from_template(SUMMARY_TEMPLATE)
         self.search_prompt = ChatPromptTemplate.from_messages(
             [
                 (
                     "user",
-                    "Write 3 google search queries to search online that form an "
+                    "Write 10 google search queries to search online that form an "
                     "objective opinion from the following: {question}\n"
                     "You must respond with a list of strings in the following format: "
-                    '["query 1", "query 2", "query 3"].',
+                    '["query 1", "query 2", "query 3", "query 4", "query 5", "query 6", "query 7", "query 8", "query 9", "query 10"].',
                 ),
             ]
         )
