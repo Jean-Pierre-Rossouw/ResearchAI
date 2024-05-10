@@ -17,7 +17,7 @@ class ReportAgent:
     def __init__(self):
         self.LLM = GoogleGenerativeAI(
             api_key=os.environ.get("GOOGLE_API_KEY"),
-            model="gemini-pro",
+            model="models/gemini-1.5-pro-latest",
             temperature=0,
             safety_settings=None,
         )
