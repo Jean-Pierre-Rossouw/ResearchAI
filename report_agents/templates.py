@@ -13,7 +13,7 @@ RESEARCH_REPORT_TEMPLATE = """Information:
 --------
 Using the above information, answer the following question or topic: "{question}" in a detailed report -- \
 The report should focus on the answer to the question, should be well structured, informative, \
-in depth, with facts and numbers if available and a minimum of 1,200 words.
+in depth, with facts and numbers if available and a minimum of 2,400 words.
 You should strive to write the report as long as you can using all relevant and necessary information provided.
 You must write the report with markdown syntax.
 You MUST determine your own concrete and valid opinion based on the given information. Do NOT deter to general and meaningless conclusions.
